@@ -2,7 +2,7 @@
 
 Ferramenta educacional de linha de comando para **criptografar e descriptografar arquivos locais** com Python. O projeto utiliza **AES-256-GCM** para proteger a confidencialidade e verificar a integridade dos dados, preservando os arquivos originais.
 
-> **Uso recomendado:** estudos de Python e criptografia, com arquivos próprios e cópias de teste. Esta ferramenta não substitui soluções auditadas de proteção de dados ou backup.
+> **Uso recomendado:** estudos de Python e criptografia, com arquivos próprios e cópias de teste. Esta ferramenta não substitui soluções auditadas de proteção de dados ou backup, nem deve ser usada com o objetivo de prejudicar outras pessoas.
 
 > Um projeto baseado no desafio de criação de Ramsomware do bootcamp de Cibersegurnaça da DIO. 
     O projeto original se encontra em https://github.com/cassiano-dio/cibersecurity-desafio-ransomware/tree/master
