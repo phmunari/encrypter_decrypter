@@ -1,4 +1,4 @@
-"""Descriptografando arquivo .enc criados pelo encrypter_melhorado.py."""
+"""Descriptografando arquivo .enc criados pelo encrypt.py."""
 import argparse
 import getpass
 from pathlib import Path
