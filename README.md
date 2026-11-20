@@ -112,7 +112,7 @@ O cabeçalho tem **32 bytes** e é autenticado como AAD. O identificador `ENC1` 
 - Uma senha incorreta ou alterações no arquivo criptografado causam falha de autenticação.
 - O conteúdo é carregado integralmente na memória; arquivos grandes podem consumir muita RAM.
 - O nome do arquivo e alguns metadados do sistema de arquivos **não são criptografados**.
-- Os arquivos `.enc` não são compatíveis com os antigos `.ransomwaretroll` produzidos pelos scripts com `pyaes` e AES-CTR.
+- Os arquivos `.enc` não são compatíveis com os antigos `.ransomwaretroll` produzidos pelos scripts com `pyaes` e AES-CTR (https://github.com/cassiano-dio/cibersecurity-desafio-ransomware/tree/master).
 - Para dados sensíveis ou produção, prefira ferramentas consolidadas e auditadas, além de manter backups independentes.
 
 ## Melhorias futuras
