@@ -21,8 +21,8 @@ Ferramenta educacional de linha de comando para **criptografar e descriptografar
 
 ```text
 projeto/
-├── encrypter_melhorado.py
-├── decrypter_melhorado.py
+├── encrypt.py
+├── decrypt.py
 └── README.md
 ```
 
@@ -56,7 +56,7 @@ echo "Mensagem de teste" > teste.txt
 Execute:
 
 ```bash
-python3 encrypter_melhorado.py teste.txt
+python3 encrypt.py teste.txt
 ```
 
 Digite uma senha quando solicitado. O programa criará `teste.txt.enc` na mesma pasta, **sem excluir `teste.txt`**.
@@ -68,7 +68,7 @@ O programa não sobrescreve um arquivo existente. Como `teste.txt` ainda está n
 ```bash
 mkdir -p recuperados
 mv teste.txt.enc recuperados/
-python3 decrypter_melhorado.py recuperados/teste.txt.enc
+python3 decrypt.py recuperados/teste.txt.enc
 ```
 
 Informe **a mesma senha** usada na criptografia. O resultado será `recuperados/teste.txt`.
